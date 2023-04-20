@@ -1,0 +1,32 @@
+.stat__container {
+  height: 100px;
+  width: 230.05262756347656px;
+  left: 0px;
+  top: 0px;
+  border-radius: 20px;
+  padding: 15px;
+  border-radius: 20px;
+}
+.stat__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.header__section {
+  text-align: right;
+}
+.sub__heading {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.total__revenue {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}

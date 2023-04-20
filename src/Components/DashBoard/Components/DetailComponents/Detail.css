@@ -1,0 +1,62 @@
+.card__conatiner {
+  height: 120px;
+  width: 520px;
+  left: 0px;
+  top: 0px;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  gap: 2px;
+}
+.card__headings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card__details {
+  font-size: 12px;
+  gap: 5px;
+}
+.card__option {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #858585;
+}
+.card__detail2,
+.card__detail1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+  gap: 2px;
+}
+.card__detail1 {
+  border-left: 5px solid #9bdd7c;
+}
+.card__detail2 {
+  border-left: 5px solid #6972c3;
+}
+.card__details {
+  display: flex;
+  flex-direction: column;
+}
+.card__option {
+  display: flex;
+  align-items: center;
+}
+.card__title {
+  font-family: Montserrat, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.location {
+  color: #858585;
+}

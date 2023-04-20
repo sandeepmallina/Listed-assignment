@@ -1,0 +1,141 @@
+.home__conatiner {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  background: #f5f5f5;
+}
+.home__left {
+  height: 100%;
+  width: 588px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home__title {
+  height: 88px;
+  width: 246px;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 88px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.home__right {
+  height: 100%;
+  width: 852px;
+  left: 588px;
+  top: 0px;
+  border-radius: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__container {
+  height: 500px;
+  width: 385px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.login__title {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.login__subtitle {
+  line-height: 19.2px;
+}
+.fonts__style {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.signIn__button {
+  height: 30px;
+  width: 180px;
+  left: 0px;
+  top: 0px;
+  border-radius: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background-color: white;
+  color: #858585;
+  border: none;
+}
+.button__conatiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.login__container {
+  height: 317px;
+  width: 325px;
+  left: 0px;
+  top: 0px;
+  border-radius: 20px;
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.register__title {
+  text-align: center;
+  color: #858585;
+}
+.input__box {
+  height: 40px;
+  width: 325px;
+  left: 0px;
+  top: 0px;
+  border-radius: 10px;
+  background: #f5f5f5;
+  border: none;
+  text-align: left;
+  line-height: 19.2px;
+  padding-left: 10px;
+}
+.main__signin__btn {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  color: white;
+  height: 40px;
+  width: 325px;
+  left: 0px;
+  top: 0px;
+  border-radius: 10px;
+
+  border: none;
+  background: #000000;
+}
+
+p span {
+  color: #346bd4;
+}
